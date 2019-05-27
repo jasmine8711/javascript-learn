@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./bgnone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.active {
+  animation: bgchange 1s alternate forwards;
+}
+@keyframes bgchange {
+  from {
+    background-image: url(./bgdog.jpg);
+    background-position-y: -400px;
+  }
+  to {
+    background-image: url(./bgdog.jpg);
+    background-position-y: 0;
+  }
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  margin: 0 auto;
+  font-size: 30px;
+  border-radius: 5px;
+}
