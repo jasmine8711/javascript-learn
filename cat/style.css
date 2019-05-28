@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bgbody {
+  background-image: url(./image/bg.jpg);
+  background-size: cover;
+}
+.cloud {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+#sun {
+  display: block;
+  position: relative;
+  left: 70%;
+  width: 300px;
+}
+.none {
+  opacity: 0;
+}
+#cat {
+  width: 100px;
+  height: auto;
+  transform: rotate(45deg) translateX(-200px) translateY(-200px);
+}
+.cat-active {
+  width: 100px;
+  height: auto;
+  animation: rain 5s forwards;
+}
+@keyframes rain {
+  0% {
+    transform: rotate(45deg) translateX(0px) translateY(0px);
+  }
+  100% {
+    transform: translate(900px, 900px) rotate(45deg);
+  }
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 30px;
+  background: #cad3d8;
+  color: white;
+}
