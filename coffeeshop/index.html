@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+        rel="stylesheet">
+    <link rel="icon"
+        href="./image/coffee.png">
+    <link rel="stylesheet"
+        href="style.css">
+    <title>JasCoffee</title>
+</head>
+
+<body class="bgimg">
+    <div class="box1">
+        <h2 class="tilte">
+            Opening hours
+        </h2>
+        <table class="openhour">
+            <tr class="tablehead">
+                <th>Week</th>
+                <th>Voormiddag</th>
+                <th>Namiddag</th>
+            </tr>
+            <tr class="weekday">
+                <td data-day=0>Monday</td>
+                <td class="am">9.00u-12.00u</td>
+                <td class="pm">13.00u-17.00u</td>
+            </tr>
+            <tr class="weekday"
+                data-foo="javascript sucks">
+                <td>Tuesday</td>
+                <td class="am">9.00u-12.00u</td>
+                <td class="pm">13.00u-17.00u</td>
+            </tr>
+            <tr class="weekday">
+                <td>Wednesday</td>
+                <td class="am">9.00u-12.00u</td>
+                <td class="pm"> 13.00u-17.00u</td>
+            </tr>
+            <tr class="weekday">
+                <td>Thursday</td>
+                <td class="am"> 9.00u-12.00u</td>
+                <td class="pm">13.00u-17.00u</td>
+            </tr>
+            <tr class="weekday">
+                <td>Friday</td>
+                <td class="am">9.00u-12.00u</td>
+                <td class="pm">13.00u-17.00u</td>
+            </tr>
+            <tr class="weekday">
+                <td>Saturday</td>
+                <td class="am">9.00u-12.00u</td>
+                <td class="pm"> 13.00u-17.00u</td>
+            </tr>
+            <tr class="weekday">
+                <td>Sunday</td>
+                <td>Closed</td>
+                <td>Closed
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="box2"
+        id="box2">
+        <p id="time"></p>
+        <p id="open"></p>
+        <button id="btn">Close early</button>
+    </div>
+
+
+    <script src="coffee.js"></script>
+</body>
+
+</html>

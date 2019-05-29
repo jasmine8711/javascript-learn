@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.bgimg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./image/coffee-shop-1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 50%;
+}
+.box2 {
+  background-image: url(./image/coffee.png);
+  background-size: 30%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.tilte {
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.openhour {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+.openhour th {
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+}
+.openhour td {
+  padding: 5px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+#open {
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+}
+#time {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#btn {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 0 auto;
+  width: 40%;
+}

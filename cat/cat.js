@@ -20,8 +20,6 @@ function catMove(cat, startingX) {
   }
 }
 
-let counter = 0;
-
 btn.onclick = () => {
   //create <img>
   let cat = new Image(100, 50); // width, height values are optional params
@@ -33,11 +31,12 @@ btn.onclick = () => {
   cat.style.position = "absolute";
 
   catMove(cat, 0);
-
+  let counter = 0;
   let id = setInterval(function() {
     if (counter >= 20) {
       counter = 0;
       clearInterval(id);
+      audio.pause();
     }
     counter++;
 
